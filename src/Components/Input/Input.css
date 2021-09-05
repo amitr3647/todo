@@ -1,0 +1,22 @@
+.main-div {
+  margin: 12vh 0;
+}
+
+.add-item ion-icon {
+  position: relative;
+  font-size: 24px;
+  color: darkgray;
+  right: 28px;
+  top: 6px;
+}
+.child-div figcaption {
+  font-size: 22px;
+  padding-top: 15px;
+}
+.add-item input {
+  padding: 5px;
+  font-size: 16px;
+  width: 25rem;
+  max-width: 80%;
+  margin-left: 25px;
+}

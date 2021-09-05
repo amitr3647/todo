@@ -1,0 +1,20 @@
+.eachItem {
+  background: blueviolet;
+  padding: 7px 10px;
+  width: 25rem;
+  max-width: 80%;
+  border-radius: 5px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.eachItem p {
+  font-size: 20px;
+  margin: 0;
+}
+.crossedLine {
+  text-decoration: line-through;
+  color: black;
+}
