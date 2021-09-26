@@ -1,8 +1,7 @@
 .eachItem {
   background: blueviolet;
   padding: 7px 10px;
-  width: 25rem;
-  max-width: 80%;
+  width: 27rem;
   border-radius: 5px;
   margin: 25px auto;
   display: flex;
@@ -13,8 +12,14 @@
 .eachItem p {
   font-size: 20px;
   margin: 0;
+  word-break: break-all;
 }
 .crossedLine {
   text-decoration: line-through;
   color: black;
+}
+@media screen and (max-width: 500px) {
+  .eachItem {
+    width: 20rem;
+  }
 }

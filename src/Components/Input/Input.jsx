@@ -11,14 +11,17 @@ export default function Input({ setInputValue, inputValue, setItems, items }) {
             <figcaption>Add your list here 🤞</figcaption>
           </figure>
           <div className="add-item">
-            <input
-              value={inputValue}
-              type="text"
-              placeholder="  ✍️  type here"
-              onChange={(e) => {
-                setInputValue(e.target.value);
-              }}
-            ></input>
+            <div className="add-box">
+              <input
+                value={inputValue}
+                type="text"
+                placeholder="  ✍️  type here"
+                onChange={(e) => {
+                  setInputValue(e.target.value);
+                }}
+              ></input>
+            </div>
+
             <ion-icon
               name="add-outline"
               onClick={() => {

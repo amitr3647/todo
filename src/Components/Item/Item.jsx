@@ -9,20 +9,23 @@ export default function Item({ items, setItems }) {
       {items.map((item, index) => {
         return (
           <div className="eachItem" key={index}>
-            <p
-              onClick={(event) => {
-                event.target.classList.toggle("crossedLine");
-              }}
-            >
-              {item}
-            </p>
-
-            <ion-icon
-              name="trash-outline"
-              onClick={() => {
-                deleteHandler(item);
-              }}
-            ></ion-icon>
+            <div className="para" style={{ padding: "0 15px" }}>
+              <p
+                onClick={(event) => {
+                  event.target.classList.toggle("crossedLine");
+                }}
+              >
+                {item}
+              </p>
+            </div>
+            <span>
+              <ion-icon
+                name="trash-outline"
+                onClick={() => {
+                  deleteHandler(item);
+                }}
+              ></ion-icon>
+            </span>
           </div>
         );
       })}
