@@ -18,6 +18,9 @@
 
   top: 3px;
 }
+.add-item ion-icon:hover {
+  color: blue;
+}
 .child-div figcaption {
   font-size: 22px;
   padding-top: 15px;
